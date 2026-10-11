@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# Databricks
+.databricks/
+.databrickscfg
+
+# Data never goes to git
+*.json.gz
+data/
+*.parquet
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local credentials (never commit)
+.databricks_token
+databricks_token.txt
